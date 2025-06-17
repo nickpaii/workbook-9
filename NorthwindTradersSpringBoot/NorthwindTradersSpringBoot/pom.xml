@@ -47,11 +47,11 @@
 			<version>8.0.33</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.networknt</groupId>
-			<artifactId>datasource</artifactId>
-			<version>1.5.18</version>
-		</dependency>
+
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-dbcp2</artifactId>
+			</dependency>
 	</dependencies>
 
 	<build>
